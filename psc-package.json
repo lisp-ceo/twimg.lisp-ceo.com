@@ -1,0 +1,8 @@
+{
+  "name": "twimg.lisp-ceo.com",
+  "set": "psc-0.12.2",
+  "source": "https://github.com/lisp-ceo/twimg.lisp-ceo.com.git",
+  "depends": [
+    "prelude"
+  ]
+}
