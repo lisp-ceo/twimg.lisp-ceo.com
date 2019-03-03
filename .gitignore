@@ -8,3 +8,5 @@
 /.purs*
 /.psa*
 *.js
+dist
+build

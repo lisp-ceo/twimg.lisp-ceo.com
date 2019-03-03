@@ -2,11 +2,8 @@ module Main where
 
 import Prelude
 import Effect (Effect)
-import Halogen.Aff as HA
-import Halogen.VDom.Driver (runUI)
-import Twimg.UI.Board as Board
+import Effect.Console (log)
 
 main :: Effect Unit
-main = HA.runHalogenAff do
-  body <- HA.awaitBody
-  runUI Board.myButton unit body
+main = do
+  log "Hello sailor!"

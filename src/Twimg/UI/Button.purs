@@ -1,4 +1,4 @@
-module Twimg.UI.Board where
+module Twimg.UI.Button where
 
 import Prelude
 import Data.Maybe (Maybe(..))
@@ -15,8 +15,8 @@ data Query a
 
 data Message = Toggled Boolean
 
-root :: forall m. H.Component HH.HTML Query Unit Message m
-root =
+myButton :: forall m. H.Component HH.HTML Query Unit Message m
+myButton =
   H.component
     { initialState: const initialState
     , render
