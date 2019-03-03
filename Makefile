@@ -1,4 +1,5 @@
-PULP=pulp
+PULP=npx pulp
+PSC=npx psc-package
 
 .PHONY: run
 run:
@@ -6,3 +7,4 @@ run:
 
 configure:
 	npm i
+  $(PSC) install

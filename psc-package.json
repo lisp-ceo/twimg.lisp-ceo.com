@@ -1,8 +1,9 @@
 {
   "name": "twimg.lisp-ceo.com",
-  "set": "psc-0.12.2",
-  "source": "https://github.com/lisp-ceo/twimg.lisp-ceo.com.git",
+  "set": "psc-0.12.3",
+  "source": "https://github.com/purescript/package-sets.git",
   "depends": [
+    "console",
     "prelude"
   ]
 }
