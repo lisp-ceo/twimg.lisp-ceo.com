@@ -1,4 +1,4 @@
-module Main where
+module Twimg.Examples.Basic.Main where
 
 import Prelude
 import Effect (Effect)
